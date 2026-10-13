@@ -4,7 +4,6 @@ import java.util.ArrayList;
 
 public class ArraySearch {
     private int[] numbers = {23, 45, 67, 67, 95, 22};
-    public ArrayList<Integer> similar_numbers = new ArrayList<Integer>();
 
     public String search(int value){
         StringBuilder indices = new StringBuilder();
