@@ -13,5 +13,8 @@ public class Main {
 
         PassOrFail user = new PassOrFail(56);
         user.displayResults();
+
+        GradeCalculator student = new GradeCalculator(81);
+        student.displayResults();
     }
 }
