@@ -1,30 +1,12 @@
 package za.co.mie;
-import java.util.ArrayList;
 
 public class ArrayStatistics {
-    private ArrayList<Integer> numbers = new ArrayList<Integer>();
-
-    public ArrayStatistics(){
-        addNumbers();
-    }
-
-    private void addNumbers(int number){
-        numbers.add(number);
-    }
-
-    private void addNumbers(){
-        addNumbers(23);
-        addNumbers(45);
-        addNumbers(67);
-        addNumbers(67);
-        addNumbers(95);
-        addNumbers(22);
-    }
+    private int[] numbers = {23, 45, 67, 67, 95, 22};
 
     public int getLargest(){
-        int largest = numbers.getFirst();
+        int largest = numbers[0];
         for (int number : numbers){
-            if (number > largest) { largest = number; };
+            if (number > largest) { largest = number; }
         }
         return largest;
     }
@@ -34,9 +16,9 @@ public class ArrayStatistics {
     }
 
     public int getLowest(){
-        int lowest = numbers.getFirst();
+        int lowest = numbers[0];
         for (int number : numbers){
-            if (number < lowest) { lowest = number; };
+            if (number < lowest) { lowest = number; }
         }
         return lowest;
     }
@@ -46,20 +28,21 @@ public class ArrayStatistics {
     }
 
     public int getNumberOfElements(){
-        return numbers.size();
+        return numbers.length;
     }
 
     void displayNumberOfElements(){
         System.out.println(getNumberOfElements());
     }
 
-    public int getNumsGreaterThan50 (){
+    public int getNumsGreaterThan50(){
         int count = 0;
         for (int number : numbers){
-            if (number >= 50) { count += 1; }
+            if (number > 50) { count++; }
         }
         return count;
     }
+
     void displayNumsGreaterThan50(){
         System.out.println(getNumsGreaterThan50());
     }

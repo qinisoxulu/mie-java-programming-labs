@@ -35,6 +35,6 @@ public class Main {
         numbers.displayNumsGreaterThan50();
 
         ArraySearch search = new ArraySearch();
-        search.displayResults(2);
+        search.displayResults(23);
     }
 }
