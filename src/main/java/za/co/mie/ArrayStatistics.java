@@ -61,6 +61,6 @@ public class ArrayStatistics {
         return count;
     }
     void displayNumsGreaterThan50(){
-        System.out.println(getNumberOfElements());
+        System.out.println(getNumsGreaterThan50());
     }
 }
