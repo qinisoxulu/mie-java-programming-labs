@@ -1,16 +1,12 @@
 package za.co.mie;
 
+// Exercise 1.1
 public class StudentDetails {
-    String student_name;
-    int age;
-    double avg_mark;
-    boolean is_registered;
-
-    public void printStudentDetails(){
-        student_name = "Naledi";
-        age = 20;
-        avg_mark = 76.5;
-        is_registered = true;
+    public void displayStudentDetails(){
+        String student_name = "Naledi";
+        int age = 20;
+        double avg_mark = 76.5;
+        boolean is_registered = true;
 
         System.out.println("""
             Student Name: """ + student_name + """
