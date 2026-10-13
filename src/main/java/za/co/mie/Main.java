@@ -33,5 +33,8 @@ public class Main {
         numbers.displayLowest();
         numbers.displayNumberOfElements();
         numbers.displayNumsGreaterThan50();
+
+        ArraySearch search = new ArraySearch();
+        search.displayResults(2);
     }
 }
