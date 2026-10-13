@@ -19,5 +19,9 @@ public class Main {
 
         NumberAnalysis analysis = new NumberAnalysis(24);
         analysis.displayAnalysis();
+
+        LoginCheck log_user = new LoginCheck();
+        log_user.storeInfo("qiniso", "123");
+        System.out.println(log_user.checkInfo("qinis", "123"));
     }
 }
