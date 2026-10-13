@@ -27,5 +27,11 @@ public class Main {
         StudentMarks student_m = new StudentMarks();
         student_m.displayTotal();
         student_m.displayAverage();
+
+        ArrayStatistics numbers = new ArrayStatistics();
+        numbers.displayLargest();
+        numbers.displayLowest();
+        numbers.displayNumberOfElements();
+        numbers.displayNumsGreaterThan50();
     }
 }
