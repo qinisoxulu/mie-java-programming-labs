@@ -16,5 +16,8 @@ public class Main {
 
         GradeCalculator student = new GradeCalculator(81);
         student.displayResults();
+
+        NumberAnalysis analysis = new NumberAnalysis(24);
+        analysis.displayAnalysis();
     }
 }
