@@ -44,8 +44,19 @@ public class EvenOddArray {
         return odds;
     }
 
-    public void displayCounts(){
+    void displayCounts(){
         System.out.println("Even values: " + even_count);
         System.out.println("Odd values: " + odd_count);
+    }
+
+    void displayEvenOrOdds(){
+        StringBuilder evens = new StringBuilder();
+        for (int even: getEvenValues()){
+            if (!evens.isEmpty()){
+                evens.append(", ");
+            }
+            evens.append(even);
+        }
+        System.out.println(evens);
     }
 }
