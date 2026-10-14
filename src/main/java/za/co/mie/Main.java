@@ -42,8 +42,14 @@ public class Main {
 //        nums.displayCounts();
 //        nums.displayEvenValues();
 //        nums.displayOddValues();
-        ReverseArray names = new ReverseArray(new String[]{"Qiniso", "Phuti", "Lethabo"});
+//        ReverseArray names = new ReverseArray(new String[]{"Qiniso", "Phuti", "Lethabo"});
 //        names.reverse();
-        names.display_reverse();
+//        names.display_reverse();
+        Student student_1 = new Student("Hishaam", "002", 90);
+        Student student_2 = new Student("Phuti", "007", 85);
+        student_1.displayDetails();
+        student_1.hasPassed();
+        student_2.displayDetails();
+        student_2.hasPassed();
     }
 }
