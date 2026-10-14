@@ -38,8 +38,12 @@ public class Main {
 //        search.displayResults(23);
 //        search.displayResults(0);
 
-        EvenOddArray nums = new EvenOddArray(new int[]{23, 45, 67, 67, 95, 22, 4, 8});
-        nums.displayCounts();
-        nums.displayEvenOrOdds();
+//        EvenOddArray nums = new EvenOddArray(new int[]{23, 45, 67, 67, 95, 22, 4, 8});
+//        nums.displayCounts();
+//        nums.displayEvenValues();
+//        nums.displayOddValues();
+        ReverseArray names = new ReverseArray(new String[]{"Qiniso", "Phuti", "Lethabo"});
+//        names.reverse();
+        names.display_reverse();
     }
 }
