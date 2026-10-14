@@ -6,24 +6,27 @@ public class EvenOddArray {
     private int odd_count;
 
     public EvenOddArray(int[] p_numbers){
-        numbers = p_numbers;
+        this.numbers = p_numbers;
         countValues();
     }
 
     private void countValues(){
-        even_count = 0;
-        odd_count = 0;
         for (int number : numbers){
             if (number % 2 == 0){
-                even_count++;
+                this.even_count++;
             } else {
-                odd_count++;
+                this.odd_count++;
             }
         }
     }
 
+    void displayCounts(){
+        System.out.println("Even values: " + this.even_count);
+        System.out.println("Odd values: " + this.odd_count);
+    }
+
     public int[] getEvenValues(){
-        int[] evens = new int[even_count];
+        int[] evens = new int[this.even_count];
         int index = 0;
         for (int number : numbers){
             if (number % 2 == 0){
@@ -33,8 +36,19 @@ public class EvenOddArray {
         return evens;
     }
 
+    void displayEvenValues(){
+        StringBuilder evens = new StringBuilder();
+        for (int even: getEvenValues()){
+            if (!evens.isEmpty()){
+                evens.append(", ");
+            }
+            evens.append(even);
+        }
+        System.out.println(evens);
+    }
+
     public int[] getOddValues(){
-        int[] odds = new int[odd_count];
+        int[] odds = new int[this.odd_count];
         int index = 0;
         for (int number : numbers){
             if (number % 2 != 0){
@@ -44,19 +58,14 @@ public class EvenOddArray {
         return odds;
     }
 
-    void displayCounts(){
-        System.out.println("Even values: " + even_count);
-        System.out.println("Odd values: " + odd_count);
-    }
-
-    void displayEvenOrOdds(){
-        StringBuilder evens = new StringBuilder();
-        for (int even: getEvenValues()){
-            if (!evens.isEmpty()){
-                evens.append(", ");
+    void displayOddValues(){
+        StringBuilder odds = new StringBuilder();
+        for (int odd: getOddValues()){
+            if (!odds.isEmpty()){
+                odds.append(", ");
             }
-            evens.append(even);
+            odds.append(odd);
         }
-        System.out.println(evens);
+        System.out.println(odds);
     }
 }
