@@ -51,14 +51,15 @@ public class Main {
 //        student_1.hasPassed();
 //        student_2.displayDetails();
 //        student_2.hasPassed();
+//
+//        BankAccount account = new BankAccount("Qiniso Xulu", 1234, 0);
+//        account.deposit(100);
+//        account.deposit(100);
+//        account.withdraw(201);
+//        account.deposit(-1);
+//        System.out.println(account.getBalance());
 
-        BankAccount account = new BankAccount("Qiniso Xulu", 1234, 0);
-        account.deposit(100);
-        account.deposit(100);
-        account.withdraw(201);
-        account.deposit(-1);
-        System.out.println(account.getBalance());
-
-
+        Rectangle rectangle = new Rectangle(30, 20);
+        rectangle.displayResults();
     }
 }
