@@ -45,7 +45,7 @@ public class Main {
 //        ReverseArray names = new ReverseArray(new String[]{"Qiniso", "Phuti", "Lethabo"});
 //        names.reverse();
 //        names.display_reverse();
-//        Student student_1 = new Student("Hishaam", "002", 90);
+//        Student student_1 = new Student("Hisham", "002", 90);
 //        Student student_2 = new Student("Phuti", "007", 85);
 //        student_1.displayDetails();
 //        student_1.hasPassed();
@@ -59,7 +59,12 @@ public class Main {
 //        account.deposit(-1);
 //        System.out.println(account.getBalance());
 
-        Rectangle rectangle = new Rectangle(30, 20);
-        rectangle.displayResults();
+//        Rectangle rectangle = new Rectangle(30, 20);
+//        rectangle.displayResults();
+
+        Product milk = new Product("123", "Milk", 23.453554, 2);
+        milk.add_stock(2);
+        System.out.println(milk.stock_quantity);
+        milk.reduce_stock(1);
     }
 }
