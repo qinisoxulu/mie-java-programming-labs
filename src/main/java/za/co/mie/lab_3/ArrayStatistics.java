@@ -1,4 +1,4 @@
-package za.co.mie;
+package za.co.mie.lab_3;
 
 public class ArrayStatistics {
     private int[] numbers = {23, 45, 67, 67, 95, 22};

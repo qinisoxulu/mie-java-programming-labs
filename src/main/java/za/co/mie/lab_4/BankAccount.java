@@ -1,4 +1,4 @@
-package za.co.mie;
+package za.co.mie.lab_4;
 
 public class BankAccount {
     private String account_holder;

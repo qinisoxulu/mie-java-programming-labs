@@ -1,6 +1,4 @@
-package za.co.mie;
-
-import java.util.ArrayList;
+package za.co.mie.lab_3;
 
 public class ArraySearch {
     private int[] numbers = {23, 45, 67, 67, 95, 22};

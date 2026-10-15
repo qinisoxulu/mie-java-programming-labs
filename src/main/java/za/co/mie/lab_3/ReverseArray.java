@@ -1,4 +1,4 @@
-package za.co.mie;
+package za.co.mie.lab_3;
 
 import java.util.Arrays;
 import java.util.LinkedList;

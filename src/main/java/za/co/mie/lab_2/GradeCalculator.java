@@ -1,6 +1,4 @@
-package za.co.mie;
-
-import jdk.swing.interop.SwingInterOpUtils;
+package za.co.mie.lab_2;
 
 public class GradeCalculator {
     float mark;

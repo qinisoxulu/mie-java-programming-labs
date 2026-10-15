@@ -1,4 +1,4 @@
-package za.co.mie;
+package za.co.mie.lab_2;
 
 public class PassOrFail {
     float mark;

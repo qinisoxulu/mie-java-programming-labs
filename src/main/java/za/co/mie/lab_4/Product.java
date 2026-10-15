@@ -1,10 +1,10 @@
-package za.co.mie;
+package za.co.mie.lab_4;
 
 public class Product {
     private String product_id;
     private String name;
     private double price;
-    protected int stock_quantity;
+    public int stock_quantity;
 
     public Product(String p_product_id, String p_name, double p_price, int p_stock_quantity){
         this.product_id = p_product_id;

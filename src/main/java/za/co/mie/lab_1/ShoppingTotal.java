@@ -1,4 +1,4 @@
-package za.co.mie;
+package za.co.mie.lab_1;
 
 // Exercise 1.2
 public class ShoppingTotal {
