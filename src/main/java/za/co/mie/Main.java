@@ -1,5 +1,7 @@
 package za.co.mie;
 
+import za.co.mie.lab_4.Product;
+
 public class Main {
     public static void main(){
 //        StudentDetails student_info = new StudentDetails();
