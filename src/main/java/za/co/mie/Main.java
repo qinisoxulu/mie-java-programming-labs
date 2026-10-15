@@ -45,11 +45,20 @@ public class Main {
 //        ReverseArray names = new ReverseArray(new String[]{"Qiniso", "Phuti", "Lethabo"});
 //        names.reverse();
 //        names.display_reverse();
-        Student student_1 = new Student("Hishaam", "002", 90);
-        Student student_2 = new Student("Phuti", "007", 85);
-        student_1.displayDetails();
-        student_1.hasPassed();
-        student_2.displayDetails();
-        student_2.hasPassed();
+//        Student student_1 = new Student("Hishaam", "002", 90);
+//        Student student_2 = new Student("Phuti", "007", 85);
+//        student_1.displayDetails();
+//        student_1.hasPassed();
+//        student_2.displayDetails();
+//        student_2.hasPassed();
+
+        BankAccount account = new BankAccount("Qiniso Xulu", 1234, 0);
+        account.deposit(100);
+        account.deposit(100);
+        account.withdraw(201);
+        account.deposit(-1);
+        System.out.println(account.getBalance());
+
+
     }
 }
