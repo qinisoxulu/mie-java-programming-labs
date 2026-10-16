@@ -20,7 +20,7 @@ public class EvenOddArray {
         }
     }
 
-    void displayCounts(){
+    public void display_counts(){
         System.out.println("Even values: " + this.even_count);
         System.out.println("Odd values: " + this.odd_count);
     }
@@ -36,7 +36,7 @@ public class EvenOddArray {
         return evens;
     }
 
-    void displayEvenValues(){
+    public void display_even_values(){
         StringBuilder evens = new StringBuilder();
         for (int even: getEvenValues()){
             if (!evens.isEmpty()){
@@ -58,7 +58,7 @@ public class EvenOddArray {
         return odds;
     }
 
-    void displayOddValues(){
+    public void display_odd_values(){
         StringBuilder odds = new StringBuilder();
         for (int odd: getOddValues()){
             if (!odds.isEmpty()){

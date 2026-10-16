@@ -13,7 +13,7 @@ public class PassOrFail {
         return "Invalid Mark";
     }
 
-    void displayResults(){
+    public void display_results(){
         System.out.println(calculateMark());
     }
 }

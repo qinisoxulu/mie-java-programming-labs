@@ -11,7 +11,7 @@ public class NumberAnalysis {
     public String symmetry(){
         return number % 2 == 0 ? "even" : "odd";
     }
-    void displayAnalysis(){
+    public void display_analysis(){
         System.out.println("Your number is an " + symmetry() + " " + skewness() + " number");
     }
 }

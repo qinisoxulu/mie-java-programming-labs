@@ -17,7 +17,7 @@ public class Rectangle {
         return 2 * (this.width + this.height);
     }
 
-    public void displayResults(){
+    public void display_results(){
         System.out.println("Width: " + this.width + ", Height: " + this.height);
         System.out.println("Area: " + area());
         System.out.println("Perimeter: " + perimeter());

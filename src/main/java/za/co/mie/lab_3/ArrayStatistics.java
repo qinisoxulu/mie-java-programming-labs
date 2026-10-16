@@ -11,7 +11,7 @@ public class ArrayStatistics {
         return largest;
     }
 
-    void displayLargest(){
+    public void display_largest(){
         System.out.println(getLargest());
     }
 
@@ -23,7 +23,7 @@ public class ArrayStatistics {
         return lowest;
     }
 
-    void displayLowest(){
+    public void display_lowest(){
         System.out.println(getLowest());
     }
 
@@ -31,7 +31,7 @@ public class ArrayStatistics {
         return numbers.length;
     }
 
-    void displayNumberOfElements(){
+    public void display_number_of_elements(){
         System.out.println(getNumberOfElements());
     }
 
@@ -43,7 +43,7 @@ public class ArrayStatistics {
         return count;
     }
 
-    void displayNumsGreaterThan50(){
+    public void display_nums_greater_than_50(){
         System.out.println(getNumsGreaterThan50());
     }
 }

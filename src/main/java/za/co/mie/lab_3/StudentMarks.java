@@ -13,11 +13,11 @@ public class StudentMarks {
         return marks.length > 0 ? getTotal() / marks.length : 0;
     }
 
-    void displayTotal(){
+    public void display_total(){
         System.out.println(getTotal());
     }
 
-    void displayAverage(){
+    public void display_average(){
         System.out.println(getAverage());
     }
 }

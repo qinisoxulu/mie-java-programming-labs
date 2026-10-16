@@ -22,7 +22,7 @@ public class TemperatureConverter {
         return is_celsius ? celsiusToFahrenheit() : fahrenheitToCelsius();
     }
 
-    void displayConverted(){
+    public void display_converted(){
         System.out.println(is_celsius ? ("Converted from " + value + " C to " + convert() + "F") : ("Converted from " + value + " F to " + convert() + "C"));
     }
 }

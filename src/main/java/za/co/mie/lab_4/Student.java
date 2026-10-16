@@ -9,10 +9,10 @@ public class Student {
         this.student_number = student_number;
         this.mark = mark;
     }
-    public void displayDetails(){
+    public void display_details(){
         System.out.println("Person Name: " + this.name + "\nStudent Number: " + this.student_number + "\nMarks: " + this.mark);
     }
-    public boolean hasPassed(){
+    public boolean has_passed(){
         return this.mark >= 50;
     }
 }

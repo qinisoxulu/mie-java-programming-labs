@@ -14,7 +14,7 @@ public class ArraySearch {
         return indices.isEmpty() ? "Value not found" : indices.toString();
     }
 
-    void displayResults(int value){
+    public void display_results(int value){
         System.out.println(search(value));
     }
 }
